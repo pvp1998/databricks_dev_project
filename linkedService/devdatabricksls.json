@@ -1,0 +1,13 @@
+{
+	"name": "devdatabricksls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7512203546590931.11.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/9ed01817-5b86-41a6-adc2-02043e92a59f/resourceGroups/dev-dataengineering/providers/Microsoft.Databricks/workspaces/dev-databricks-workspace",
+			"existingClusterId": "0218-202253-u3chfz44"
+		}
+	}
+}
