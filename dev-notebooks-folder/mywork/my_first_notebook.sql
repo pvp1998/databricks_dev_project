@@ -10,8 +10,8 @@ create table if not exists my_first_database.my_first_table (
 
 -- COMMAND ----------
 
-insert into my_first_database.my_first_table(
-  1, "Vidya",
-  2, "Prakash",
-  3, "Peram"
-)
+INSERT OVERWRITE TABLE my_first_database.my_first_table
+VALUES
+  (1, "John"),
+  (2, "Jane"),
+  (3, "Mike");
